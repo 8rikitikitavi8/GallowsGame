@@ -111,7 +111,6 @@ public class Gallows {
             b = false;
         }
         scanner.nextLine();
-
         return b;
     } 
 }
