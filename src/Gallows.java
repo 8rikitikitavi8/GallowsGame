@@ -16,7 +16,6 @@ public class Gallows {
             String wordForGuessing = getWordFromPlayer(currentPlayer, scanner);
             guessWord(wordForGuessing, scanner);
             currentPlayer = getNextPlayer(currentPlayer);
-
         }
     }
 
@@ -114,5 +113,5 @@ public class Gallows {
         scanner.nextLine();
 
         return b;
-    }
+    } 
 }
